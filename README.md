@@ -22,7 +22,7 @@ pod 'CwgDemoTest'
 
 ## Author
 
-changwuguo@qq.com, changwuguo@bytedance.com
+changwuguo@qq.com
 
 ## License
 
