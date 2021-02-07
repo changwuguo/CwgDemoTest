@@ -1,0 +1,6 @@
+framework module Pods_CwgDemoTest_Tests {
+  umbrella header "Pods-CwgDemoTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

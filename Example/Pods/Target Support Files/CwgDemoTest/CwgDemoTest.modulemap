@@ -1,0 +1,6 @@
+framework module CwgDemoTest {
+  umbrella header "CwgDemoTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
