@@ -11,6 +11,7 @@
 #endif
 
 #import "CwgNetworking.h"
+#import "CwgWebImage.h"
 
 FOUNDATION_EXPORT double CwgDemoTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char CwgDemoTestVersionString[];
