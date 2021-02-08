@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgDemoTest'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = '测试一个牛逼的项目'
 
 # This description is used to generate tags and improve search results.
