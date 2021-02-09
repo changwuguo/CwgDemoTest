@@ -1,6 +1,6 @@
 {
   "name": "CwgDemoTest",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "测试一个牛逼的项目",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/changwuguo/CwgDemoTest",
@@ -13,13 +13,17 @@
   },
   "source": {
     "git": "https://github.com/changwuguo/CwgDemoTest.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
   },
+  "static_framework": true,
   "source_files": "CwgDemoTest/Classes/**/*",
   "public_header_files": "CwgDemoTest/Classes/**/{CwgNetworking,CwgWebImage}.h",
+  "ios": {
+    "vendored_frameworks": "CwgDemoTest.framework"
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"

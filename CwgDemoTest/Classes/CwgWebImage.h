@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CwgWebImage : NSObject
 
+- (void)test;
+
 @end
 
 NS_ASSUME_NONNULL_END

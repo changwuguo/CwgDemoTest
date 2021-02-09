@@ -7,6 +7,7 @@
 //
 
 #import "CWGViewController.h"
+#import <CwgDemoTest/CwgNetworking.h>
 
 @interface CWGViewController ()
 
@@ -17,13 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    CwgNetworking *a = [CwgNetworking new];
+    [a POSTWithURLString: @"https://www.baidu.com" parameters: @{} success:^(id  _Nonnull responseObject) {
+        NSLog(@"---111---");
+    } failure:^(id  _Nonnull error) {
+        NSLog(@"---222---");
+    }];
 }
 
 @end

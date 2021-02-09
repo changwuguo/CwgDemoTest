@@ -9,4 +9,9 @@
 
 @implementation CwgWebImage
 
+- (void)test
+{
+    NSLog(@"--- test ---");
+}
+
 @end
