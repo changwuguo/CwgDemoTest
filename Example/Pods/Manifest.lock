@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CwgDemoTest (0.3.0):
+  - CwgDemoTest (0.8.0):
     - AFNetworking (~> 2.3)
     - SDWebImage
   - SDWebImage (5.10.4):
@@ -41,7 +41,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  CwgDemoTest: b9d8c477730d3c2378c2d5ff69e7dd223f5c03d8
+  CwgDemoTest: 282f2709170dd88c1a69706ebd0c0bab7ca2bebe
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
 PODFILE CHECKSUM: 5e6f5ad39f39b9a4ac6f8079884f6f5ab114b571
