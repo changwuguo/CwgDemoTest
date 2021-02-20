@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgDemoTest'
-  s.version          = '0.11.0'
+  s.version          = '0.12.0'
   s.summary          = '测试一个Cocoapod项目'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,4 @@ TODO: Add long description of the pod here.
   # }
   # s.frameworks = 'UIKit', 'MapKit's
   s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'SDWebImage'
 end
