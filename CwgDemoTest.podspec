@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgDemoTest'
-  s.version          = '0.7.0'
-  s.summary          = '测试一个牛逼的项目'
+  s.version          = '0.9.0'
+  s.summary          = '测试一个Cocoapod项目'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,9 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.static_framework = true
-  #s.source_files = 'CwgDemoTest/Classes/**/*'
-  #s.public_header_files = 'CwgDemoTest/Classes/**/{CwgNetworking,CwgWebImage}.h'
-  s.ios.vendored_frameworks = 'CwgDemoTest-0.4.0/ios/CwgDemoTest.framework'
+  s.source_files = 'CwgDemoTest/Classes/**/*'
+  s.public_header_files = 'CwgDemoTest/Classes/**/{CwgNetworking,CwgWebImage}.h'
+  s.vendored_frameworks = 'CwgDemoTest/JhtMarquee.framework'
   # s.resource_bundles = {
   #   'CwgDemoTest' => ['CwgDemoTest/Assets/*.png']
   # }
